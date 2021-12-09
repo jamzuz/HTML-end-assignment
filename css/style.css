@@ -1,0 +1,877 @@
+/* Dummy div to fit everything inside one parent */
+.content
+{
+    max-width: 1060px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+header{
+   /* Figure out how to move the background image across design thinking area*/
+   /* Done */
+    height: 400px;
+    background-image: url(/img/mountains.jpg);
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 49% 16%;
+}
+h1{
+    margin: 0;
+    text-align: center;
+}
+/* I am 100% aware how much of spaghetti is in this code but ive done way too much work at this point */
+/* I cannot justify putting more work into this */
+.logo{
+
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    margin-top: 150px;
+    margin-left: -150px;
+    overflow: hidden;
+}
+.logo p{
+    
+    margin:0;
+}
+.I{ 
+
+    font-family: 'Source Code Pro', monospace;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 0px;
+    color: white;
+    font-size: 0.8em;
+}
+._{
+
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    margin-top: -36px;
+}
+.know{
+
+    color: white;
+    margin-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: -35px;
+   
+}
+.html{
+    margin-left: 120px;
+    margin-top: -62px;
+}
+.also{
+    font-weight: 200;
+    font-size: 0.6em;
+    margin-top: 20px;
+    margin-left: 22px;
+}
+
+/* the logo really is a mess and im pretty sure its all sorts of wrong. but kinda looks like it! */
+
+
+/*     NAV BAR     */
+.navbar{
+    z-index: 9001;
+    margin-left: 1px;
+    position: sticky;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    top:0;
+
+}
+/* modify links in the navbar */
+.navbar a{
+    
+    float: left;
+    background-color: rgb(218, 218, 218);
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-right: solid 1px rgb(88, 88, 88);
+    
+    
+
+}
+.navbar a:hover {
+    background-color: rgb(80, 80, 80);
+    color: rgb(255, 255, 255);
+    /* make them fancy with hover */
+}  
+#contact {
+    color: white;
+    background-color: red;
+    /*make the contact button red  */
+}
+#contact:hover{
+
+    background-color: rgb(65, 0, 0);
+}
+
+/*NAV BAR ENDS*/
+
+/* This produces the darker portion for DT area */
+.dark{
+    margin-top: -20px;
+    text-align: right;
+    background: rgba(0, 0, 0, 0.90);
+    height: 100%;
+    padding-bottom: 200px;
+}
+
+h2{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.DesignThinking{
+    
+    color: rgb(218, 218, 218);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(/img/mountains.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 68% 87%;
+    background-attachment: fixed;
+
+    
+}
+.Design{
+    
+    margin: 0;
+    padding-top: 100px;
+    margin-bottom: -24px;
+    margin-right: -15px;
+    padding-right: 100px;
+    font-size: 4.7em;
+}
+.Thinking{
+    
+    margin: 0;
+    margin-top: -40px;
+    padding-right: 110px;
+    color: red;
+    font-size: 2.7em;
+    
+}
+.text ul li{
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.548);
+    
+}
+.why{
+    margin: 0;
+    padding-right: 150px;
+    font-size: 1.4em;
+    max-width: 300px;
+    text-align: left;
+    display: inline-block;
+    
+}
+.DTlist{
+    margin: 0;
+    margin-top: 20px;
+    padding-right: 150px;
+    max-width: 300px;
+    text-align: left;
+    display: inline-block;
+    
+}
+.source{
+    margin: 0;
+    margin-top: 40px;
+    padding-right: 300px;
+    max-width: 300px;
+    text-align: left;
+    display: inline-block;
+    font-size: 1em;
+
+}
+
+.crosshair{
+    filter: invert(1);
+    position: absolute;
+    opacity: 0.1;
+    left: -280px;
+    top: 180px;
+    height: 80%;
+    overflow: hidden;
+}
+/* fancy 4 boxes start here */
+
+
+
+
+
+.Designbox{ 
+    font-size: 4em;
+    font-weight: bold;
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 400px;
+
+}
+.boxes{
+   
+    font-size: 0.3em;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px 50px;
+    grid-template-areas:
+    " a b "
+    " c d "
+    " e e ";
+    column-gap: 40px;
+    row-gap: 40px;
+    padding-top: 100px;
+    margin: auto;
+    margin-top: -30px;
+    /* hienosäätöä */
+    width: 300px;    
+}
+.grid-box{
+    
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 0.7em;
+      
+}
+#box1{
+    background-color: rgb(140, 33, 34);
+    grid-area: a;
+}
+#box2{
+    background-color:	rgb(150, 3, 64);
+    grid-area: b;
+}
+#box3{
+    background-color: 	rgb(41, 55, 115);
+    grid-area: c;
+}
+#box4{
+    background-color: rgb(65, 40, 114);
+    grid-area: d;
+}
+#box5{
+    padding-top: 15px;
+    padding-left: 10px;
+    text-align: left;
+    background-color: rgb(253, 0, 20);
+    grid-area: e;
+    
+}
+
+
+/* video starts here */
+
+.video{
+    background-color: black;
+    margin: 0;
+    padding-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+
+    /* fancy responsive video */
+}
+.yt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+/* nutshell starts here */
+
+h3{
+
+    margin: 0;
+    background-image: url(/img/nuts.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+    background-position: 62% 60%;
+    color: rgb(46, 46, 46);
+    height: 1200px;
+}
+.innut{
+    font-size: 4em;
+    max-width: 800px;
+    padding-top: 100px;
+    display: inline-block;
+    text-align: center;
+}
+.points{
+    padding-left: 100px;
+    text-align: left;
+    font-size: 1.2em;
+    margin-top: 200px;
+
+}
+.loremi{
+    max-width: 350px;
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: 400;
+    padding-left: 100px;
+}
+.vs{
+    padding-left: 100px;
+    text-align: left;
+    font-size: 1em;
+    margin: 0;
+}
+.vsbr{
+    font-weight: 400;
+    margin:0;
+    margin-bottom: -20px;
+}
+
+
+/* ABOUT US STARTS HERE */
+
+h4{
+    text-align: center;
+    font-size: 5em;
+    margin:0;
+    background-color: black;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.grid-container {
+    padding-top: 200px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 0px 0px;
+    grid-template-areas:
+      "one two"
+      "three four";
+    margin: auto;
+    width: 400px; 
+    font-size: 0.2em; 
+    
+  }
+
+
+.one { 
+    grid-area: one; 
+    background-image: url(/img/1.jpg);
+    background-size: 100%;
+    background-position: 68% 87%;
+    padding-top: 100px;
+    position: relative;
+    font-weight: 400;
+}
+.one::before{
+
+    content:"Mike Benson";
+    width: 100%;
+    height: 55%;
+    padding-top: 45%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 0, 0, 0.5)
+}
+.one:hover::before
+{
+    
+    display: none;
+    
+}
+.two { 
+    grid-area: two; 
+    background-image: url(/img/2.jpg);
+    background-size: 100%;
+    background-position: 68% 87%;
+    padding-top: 100px;
+    position: relative;
+} 
+.two::before{
+
+    content:"Joe Forbidden";
+    width: 100%;
+    height: 55%;
+    padding-top: 45%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(128, 5, 133, 0.5)
+}
+.two:hover::before
+{
+    
+    display: none;
+    
+}
+.three { 
+    grid-area: three;
+    background-image: url(/img/3.jpg);
+    background-size: 117%;
+    background-position: 50% 42%;
+    padding-top: 100px;
+    position: relative;
+}
+.three::before{
+
+    content:"Maria Santos";
+    width: 100%;
+    height: 55%;
+    padding-top: 45%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(40, 18, 139, 0.5)
+}
+.three:hover::before
+{
+    
+    display: none;
+    
+}
+.four { 
+    grid-area: four;
+    background-image: url(/img/4.jpg);
+    background-size: 125%;
+    background-position: 40% 87%;
+    padding-top: 100px;
+    position: relative;
+}
+.four::before{
+
+    content:"Jorma Selkävuori";
+    width: 100%;
+    height: 55%;
+    padding-top: 45%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(133, 4, 238, 0.5)
+}
+.four:hover::before
+{
+    
+    display: none;
+    
+}
+
+
+/* Contact box starts here */
+
+#nimikentta, #emailkentta, #puhkentta {
+    border: 2px solid white;
+    background-color: rgb(255 255 255 / 0.1);
+    width: calc(100% - 10px);
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color:white;
+    text-indent: 15px;
+
+    transition: all .2s linear;
+}
+
+#nappula {
+
+    float: right;
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #e2e2e299;
+    padding: 15px 25px;
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: 200;
+    border-radius: 50px;
+
+}
+
+.yhteys{
+    color: white;
+    background-color: red;
+}
+
+h5 {
+    color: white;
+    margin: 0;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+form {
+    
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    padding-bottom: 200px;
+}
+
+#markkinointi{
+
+margin-top: 25px;
+
+}
+#nimikentta:hover, #emailkentta:hover, #puhkentta:hover {
+background-color: rgba(255, 255, 255, 0.363);
+}
+
+label{
+
+    font-weight: 100;
+    
+    }
+    input{
+    
+        font-weight: 600;
+    }    
+/* Contact box ends here */
+/* basically copy pasted from my previous assignment */
+
+
+
+
+
+/* footer box thingy*/
+footer{
+
+    margin:0;
+    background-image: url(/img/city.jpg);
+    background-size: cover;
+    
+
+
+}
+.darken{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    padding-bottom: 400px;
+}
+.wrapper{
+    position: sticky;
+    bottom: 0;
+}
+.CI{
+    margin: 0;
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 200px;
+    position: sticky;
+    bottom: 0;
+
+}
+.laatikko{ 
+    color: black;
+    font-size: 0.8em;
+    font-weight: 400;
+    display: inline-block;
+    position: sticky;
+    bottom: 0;
+    padding: 20px;
+    margin-left: 300px;
+    padding-right: 80px;
+    text-align: left;
+    background-color: white;
+
+
+}
+
+.logo2{
+    background-color: red;
+    display: block;
+    float: right;
+    overflow: hidden;
+    margin-left: 320px;
+    margin-top: -60px;
+}
+
+.I2{ 
+
+    font-family: 'Source Code Pro', monospace;
+    text-align: left;
+    padding-left: 8px;
+    padding-top: 20px;
+    margin-top: -10px;
+    color: white;
+    font-size: 0.8em;
+}
+._2{
+
+    text-align: left;
+    color: white;
+    padding-left: 8px;
+    margin-top: -14px;
+}
+.know2{
+
+    color: white;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    margin-top: -34px;
+   
+}
+.html2{
+    text-align: right;
+    margin-left: 120px;
+    margin-top: -50px;
+    margin-right: -40px;
+    font-weight: bold;
+}
+.also2{
+    text-align: right;
+    font-weight: 400;
+    font-size: 0.6em;
+    margin-top: 15px;
+    margin-right: -40px;
+}
+.from{
+    text-align: right;
+    margin-right: 280px;
+    color: white;
+    font-size: 0.8em;
+}
+
+ /*  This is the mobile version  */
+/*  ONLY ADD MOBILE TRANSFORMS HERE  */
+@media only screen and (max-width: 320px) {
+.content{
+    max-width: 320px;
+}
+.navbar{
+    display: none;
+}
+#valikonavaus{
+    
+    display: block;
+    padding-top: 1px;
+}
+#valikonavaus span{
+    background-color: rgb(58, 58, 58);
+    height: 4px;
+    width: 40px;
+    display: block;
+    margin: 10px;
+
+
+    transition: all .2s linear;
+}
+#valikonavaus:hover span.spessu{
+    width: 15px;
+    background-color: rgb(182, 41, 41);
+}
+ul li{
+    float: none;
+    margin-bottom: 10px;
+}
+.logo {
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    margin-top: 150px;
+    margin-left: -110px;
+    overflow: hidden;
+}
+.I {
+    font-family: 'Source Code Pro', monospace;
+    text-align: left;
+    padding-left: 9px;
+    padding-top: 10px;
+    margin-top: 0px;
+    color: white;
+    font-size: 0.8em;
+}
+._ {
+    text-align: left;
+    color: white;
+    padding-left: 8px;
+    margin-top: -36px;
+}
+.know {
+    color: white;
+    margin-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: -35px;
+}
+.html {
+    margin-left: 120px;
+    margin-top: -54px;
+}
+.also {
+    font-weight: 400;
+    font-size: 0.3em;
+    margin-top: 10px;
+    margin-left: 112px;
+}
+.navbar a {
+    width: 100%;
+    padding: 5px 0;
+    margin: 0;
+    margin-bottom: 1px;
+}
+.Design{
+    margin-right: -70px;
+    font-size: 2.7em;
+    
+}
+.Thinking{
+    padding-right: 33px;
+    font-size: 1.7em;
+    margin-top: -24px;
+    
+}
+.why{
+    padding: 0;
+}
+.DTlist{
+    padding-right: 40px;
+}
+.source{
+    padding-right: 125px;
+}
+.crosshair{
+    left: -223px;
+    top: -150px;
+    height: 105%;
+    width: 200%;
+}
+
+
+.Designbox{
+    padding-top: 60px;
+    font-size: 3em;
+    padding-bottom: 60px;
+}
+.boxes{
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 210px;
+}
+h3{
+
+    max-height: 600px;
+    background-size: cover;
+    background-position: 69% 67%;
+}
+.mobileveil{
+background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+}
+.innut {
+    padding-top: 20px;
+    font-size: 2em;
+    
+
+}
+.points{
+    margin-top: 100px;
+    padding: 0;
+}
+.loremi{
+    max-width: 95%;
+    padding-left: 0;
+}
+.vs{
+    padding: 0;
+}
+h4{
+    font-size: 2em;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 100%;
+}
+.grid-container{
+    padding-top: 100px;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 20px 20px;
+    width: 220px;
+    font-size: 0.5em;
+    font-weight: 400;
+}
+   
+#nimikentta, #emailkentta, #puhkentta {
+    border: 2px solid white;
+    background-color: rgb(255 255 255 / 0.1);
+    width: calc(90%-10px);
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color:white;
+    text-indent: 15px;
+
+    transition: all .2s linear;
+}
+
+form {
+    
+    width: 90%;
+    max-width: 450px;
+    margin: auto;
+    padding-bottom: 200px;
+}
+h5{
+    font-size: 3em;
+}
+.logo2 {
+    background-color: red;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 0;
+}
+.html2 {
+    text-align: left;
+    margin-top: 31px;
+    margin-left: 5px;
+    font-weight: bold;
+    display: block;
+    float: left;
+}
+.also2 {
+    text-align: left;
+    font-weight: 400;
+    font-size: 0.4em;
+    margin-top: 55px;
+    margin-left: 40px;
+}
+.laatikko{
+    margin-left: 0px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.616)
+}
+/* i tried to make minimal adjustements but holy smokes it blew up, next website im making ill try to make it phone version FIRST */
+}
+    
